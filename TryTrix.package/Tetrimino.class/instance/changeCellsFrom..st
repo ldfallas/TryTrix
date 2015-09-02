@@ -1,0 +1,3 @@
+matrixInteraction
+changeCellsFrom: startPoint
+	^startPoint.

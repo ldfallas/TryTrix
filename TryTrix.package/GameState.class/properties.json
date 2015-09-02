@@ -1,0 +1,19 @@
+{
+	"category" : "TryTrix",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gameMatrix",
+		"nextTetrimino",
+		"currentTetrimino",
+		"rows",
+		"columns",
+		"state" ],
+	"name" : "GameState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

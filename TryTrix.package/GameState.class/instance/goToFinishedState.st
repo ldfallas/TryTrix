@@ -1,0 +1,3 @@
+gameStateManagement
+goToFinishedState
+	state := #finished.

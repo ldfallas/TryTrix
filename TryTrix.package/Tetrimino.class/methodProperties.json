@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"canGoDown" : "ldfallas 9/1/2015 21:44",
+		"changeCellsFrom:" : "ldfallas 9/1/2015 05:05",
+		"couldBePlacedAt:" : "ldfallas 8/29/2015 10:37",
+		"initWithMatrix:" : "ldfallas 9/1/2015 05:03",
+		"matrix" : "ldfallas 8/29/2015 07:58",
+		"moveBy:" : "ldfallas 9/1/2015 21:50",
+		"placeOnMatrix" : "ldfallas 8/29/2015 10:38",
+		"removeFromMatrix" : "ldfallas 9/1/2015 21:44" } }

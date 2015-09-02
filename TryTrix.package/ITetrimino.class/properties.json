@@ -1,0 +1,14 @@
+{
+	"category" : "TryTrix",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ITetrimino",
+	"pools" : [
+		 ],
+	"super" : "Tetrimino",
+	"type" : "normal" }

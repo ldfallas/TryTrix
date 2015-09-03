@@ -7,4 +7,7 @@ handleKeystroke: anEvent
 	
 	keyValue = 31 "Down"
 		ifTrue: [ gameState moveCurrentTetriminoDown . ]. 
+	keyValue = 29 "Right"
+		ifTrue: [ gameState moveCurrentTetriminoRight . ]. 
+		
 	self changed.

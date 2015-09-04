@@ -5,10 +5,10 @@
 		"canGoDown" : "ldfallas 9/1/2015 21:44",
 		"canGoLeft" : "ldfallas 9/3/2015 18:27",
 		"canGoRight" : "ldfallas 9/2/2015 21:44",
-		"changeCellsFrom:" : "ldfallas 9/1/2015 05:05",
+		"changeCellsFrom:" : "ldfallas 9/3/2015 18:34",
 		"couldBePlacedAt:" : "ldfallas 8/29/2015 10:37",
 		"initWithMatrix:" : "ldfallas 9/1/2015 05:03",
 		"matrix" : "ldfallas 8/29/2015 07:58",
 		"moveBy:" : "ldfallas 9/1/2015 21:50",
 		"placeOnMatrix" : "ldfallas 8/29/2015 10:38",
-		"removeFromMatrix" : "ldfallas 9/1/2015 21:44" } }
+		"removeFromMatrix" : "ldfallas 9/3/2015 18:34" } }

@@ -1,3 +1,6 @@
 matrixInteraction
 removeFromMatrix
-	self shouldBeImplemented.
+	
+	"Remove this tetrimino from the matrix"
+
+	^self changeCells: position with: 0.

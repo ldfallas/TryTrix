@@ -2,6 +2,4 @@
 	"class" : {
 		"create:" : "ldfallas 8/29/2015 07:48" },
 	"instance" : {
-		"changeCells:with:" : "ldfallas 9/1/2015 21:48",
-		"changeCellsFrom:" : "ldfallas 9/1/2015 21:49",
-		"removeFromMatrix" : "ldfallas 9/1/2015 21:49" } }
+		"changeCells:with:" : "ldfallas 9/1/2015 21:48" } }

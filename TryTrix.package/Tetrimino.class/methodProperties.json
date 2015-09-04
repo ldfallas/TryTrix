@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"canGoDown" : "ldfallas 9/1/2015 21:44",
+		"canGoLeft" : "ldfallas 9/3/2015 18:27",
 		"canGoRight" : "ldfallas 9/2/2015 21:44",
 		"changeCellsFrom:" : "ldfallas 9/1/2015 05:05",
 		"couldBePlacedAt:" : "ldfallas 8/29/2015 10:37",

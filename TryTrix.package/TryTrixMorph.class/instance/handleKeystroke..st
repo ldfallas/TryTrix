@@ -5,6 +5,8 @@ handleKeystroke: anEvent
 	| keyValue |
 	keyValue := anEvent keyValue.
 	
+	keyValue = 30 "Up"
+		ifTrue: [ gameState rotateCurrentTetrimino . ]. 
 	keyValue = 31 "Down"
 		ifTrue: [ gameState moveCurrentTetriminoDown . ]. 
 	keyValue = 29 "Right"

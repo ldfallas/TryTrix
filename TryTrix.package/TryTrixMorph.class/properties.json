@@ -1,0 +1,14 @@
+{
+	"category" : "TryTrix",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gameState" ],
+	"name" : "TryTrixMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

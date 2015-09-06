@@ -1,0 +1,16 @@
+{
+	"category" : "TryTrix",
+	"classinstvars" : [
+		"position" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ldfallas 9/5/2015 20:44",
+	"instvars" : [
+		"gameMatrix",
+		"position",
+		"tetriminoMatrix" ],
+	"name" : "Tetrimino",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

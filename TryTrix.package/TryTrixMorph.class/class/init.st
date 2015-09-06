@@ -2,6 +2,6 @@ initialization
 init
 	|result|
 	result := TryTrixMorph new.
-	result width: 150; height:400.
+	result width: 175; height:500.
 	result gameState: (GameState init).
 	^result.

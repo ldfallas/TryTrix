@@ -6,6 +6,7 @@ rotateRight
 		Matrix rows: (tetriminoMatrix columnCount) 
 			columns: (tetriminoMatrix rowCount).
 			
+	"Invert row and column number to rotate the tetrimino"
 	1 to: (tetriminoMatrix columnCount)  do: [ :row |
 		1 to: (tetriminoMatrix rowCount ) do: [ :column |
 			tempMatrix at:  row 

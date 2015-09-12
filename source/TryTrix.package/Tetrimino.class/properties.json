@@ -8,7 +8,8 @@
 	"instvars" : [
 		"gameMatrix",
 		"position",
-		"tetriminoMatrix" ],
+		"tetriminoMatrix",
+		"colorIndex" ],
 	"name" : "Tetrimino",
 	"pools" : [
 		 ],

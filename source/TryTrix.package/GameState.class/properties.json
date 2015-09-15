@@ -11,7 +11,9 @@
 		"currentTetrimino",
 		"rows",
 		"columns",
-		"state" ],
+		"state",
+		"tetriminoKinds",
+		"randomGenerator" ],
 	"name" : "GameState",
 	"pools" : [
 		 ],

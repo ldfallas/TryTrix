@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initWithMatrix: aGameMatrix tetriminoMatrix: aTetriminoMatrix
 	gameMatrix := aGameMatrix.
 	tetriminoMatrix := aTetriminoMatrix.

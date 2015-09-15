@@ -1,0 +1,1 @@
+I am a factory for tetriminos. I have the template for creating all valid tetriminos.

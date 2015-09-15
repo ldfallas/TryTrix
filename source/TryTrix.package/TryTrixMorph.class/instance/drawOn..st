@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawOn: canvas
 	"Draws the current game state"
 	|rows columns currentValue rectangle currentColor cellWidth cellHeight|

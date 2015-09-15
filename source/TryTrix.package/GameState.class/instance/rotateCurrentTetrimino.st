@@ -1,4 +1,4 @@
-as yet unclassified
+movement
 rotateCurrentTetrimino
 	"Rotates the current tetrimino to the right"
 	

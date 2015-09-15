@@ -1,4 +1,4 @@
-as yet unclassified
+movement
 moveCurrentTetriminoDown
 	"Tries to move the current Tetrimino down"
 	|tmp|
@@ -10,5 +10,5 @@ moveCurrentTetriminoDown
 		ifFalse: [
 			tmp := nextTetrimino.
 			currentTetrimino := nextTetrimino.
-			nextTetrimino := Tetriminos create: #I matrix: gameMatrix.		
+			nextTetrimino := Tetriminos create: (self getRandomTetriminoId) matrix: gameMatrix.		
 			].

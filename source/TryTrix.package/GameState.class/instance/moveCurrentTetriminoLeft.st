@@ -1,4 +1,4 @@
-as yet unclassified
+movement
 moveCurrentTetriminoLeft
 	"Tries to move the current Tetrimino in the left direction"
 

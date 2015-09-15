@@ -1,4 +1,4 @@
-as yet unclassified
+events
 handleKeystroke: anEvent
 	"Keyboard interaction dispatching"
 

@@ -1,4 +1,4 @@
-as yet unclassified
+matrixInteraction
 changeCells: aPoint with: anInteger 
 	0 to: (tetriminoMatrix rowCount - 1) do:  [ :row |
 		0 to: (tetriminoMatrix columnCount - 1 ) do: [ :column |

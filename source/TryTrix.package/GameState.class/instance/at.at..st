@@ -1,4 +1,4 @@
-as yet unclassified
+currentState
 at: row at: column
 	"Returns the value at the specified row and column in the game state"
 

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "ldfallas 9/15/2015 07:28",
 	"instvars" : [
-		"gameState" ],
+		"gameState",
+		"colors" ],
 	"name" : "TryTrixMorph",
 	"pools" : [
 		 ],

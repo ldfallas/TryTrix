@@ -14,11 +14,11 @@ drawOn: canvas
 		1 to: columns do: [ :column|
 			currentValue := gameState at: row at: column .
 			currentValue ~= 0 ifTrue: [ 
-				currentColor := Color red.
+				currentColor := (colors at: currentValue).
 				rectangle := Rectangle left: (self bounds left) + ((column - 1)*cellWidth) 
-                                                      right: (self bounds left) + ((column - 1)*cellWidth) + cellWidth
-                                                      top: (self bounds top) + ((row - 1)*cellHeight )
-                                                      bottom: (self bounds top) + ((row - 1)*cellHeight ) + cellHeight.
+												right: (self bounds left) + ((column - 1)*cellWidth) + cellWidth
+												top: (self bounds top) + ((row - 1)*cellHeight )
+												bottom: (self bounds top) + ((row - 1)*cellHeight ) + cellHeight.
 				canvas frameAndFillRectangle: rectangle
 						fillColor:  currentColor
 						borderWidth:  1

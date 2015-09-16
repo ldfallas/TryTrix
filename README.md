@@ -7,5 +7,8 @@ To start it, type the following on the `playground`.
 ```
 |tt|
 tt := TryTrixMorph init.
-tt openInWorld.
+tt openInWindow.
 ```
+
+![small animated demo](misc/trytrix1.gif)
+

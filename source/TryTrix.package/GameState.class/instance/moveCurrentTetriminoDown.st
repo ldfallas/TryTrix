@@ -10,5 +10,6 @@ moveCurrentTetriminoDown
 		ifFalse: [
 			tmp := nextTetrimino.
 			currentTetrimino := nextTetrimino.
-			nextTetrimino := Tetriminos create: (self getRandomTetriminoId) matrix: gameMatrix.		
+			nextTetrimino := Tetriminos create: (self getRandomTetriminoId) matrix: gameMatrix.
+			self removeCompleteRows.
 			].

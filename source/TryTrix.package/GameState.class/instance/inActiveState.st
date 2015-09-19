@@ -1,3 +1,3 @@
 currentState
 inActiveState
-	^true.
+	^(state ~= #finished).

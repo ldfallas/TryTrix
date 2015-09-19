@@ -12,4 +12,7 @@ moveCurrentTetriminoDown
 			currentTetrimino := nextTetrimino.
 			nextTetrimino := Tetriminos create: (self getRandomTetriminoId) matrix: gameMatrix.
 			self removeCompleteRows.
+			(currentTetrimino couldBePlacedInGameMatrix) ifFalse: [ 
+				self goToFinishedState.
+				 ].
 			].

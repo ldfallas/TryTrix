@@ -9,8 +9,6 @@ couldBePlacedAt: point withTetriminoMatrix: customTetriminoMatrix
 		
 	hit := false.
 	insideMatrixBounds ifTrue: [  
-
-		
 		0 to: (customTetriminoMatrix rowCount - 1) do: [ :row |
 			0 to: (customTetriminoMatrix columnCount - 1) do: [ :column |				
 				valueInGameMatrix := gameMatrix at:(point y+row) at: (point x + column ).

@@ -1,7 +1,6 @@
 initialization
 create: kind matrix: gameMatrix 
 	| resultTetrimino|    
-
 	
 	kind = #I ifTrue: [ 
 		resultTetrimino := 

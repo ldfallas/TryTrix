@@ -1,29 +1,24 @@
 drawing
 drawOn: canvas
 	"Draws the current game state"
-	|rows columns currentValue rectangle currentColor cellWidth cellHeight|
+	|rows columns  
+	 areaWidth areaHeight  morphBounds contentMatrix|
 
 	rows := gameState size x.
 	columns := gameState size y.
-	
+		
 	super drawOn: canvas.
-	
-	cellWidth :=   ((self width) / columns) asFloat truncated.
-	cellHeight :=   ((self height) / rows) asFloat truncated.
-	1 to: rows do: [ :row |
-		1 to: columns do: [ :column|
-			currentValue := gameState at: row at: column .
-			currentValue ~= 0 ifTrue: [ 
-				currentColor := (colors at: currentValue).
-				rectangle := Rectangle left: (self bounds left) + ((column - 1)*cellWidth) 
-												right: (self bounds left) + ((column - 1)*cellWidth) + cellWidth
-												top: (self bounds top) + ((row - 1)*cellHeight )
-												bottom: (self bounds top) + ((row - 1)*cellHeight ) + cellHeight.
-				canvas frameAndFillRectangle: rectangle
-						fillColor:  currentColor
-						borderWidth:  1
-						borderColor: (Color white).
-				 ]
-			 ]
-		 ].
-	
+
+	areaWidth := self width.
+	areaHeight := self height.
+	morphBounds := self bounds.
+	contentMatrix := gameState.
+	 
+	self drawGameStateOn: canvas 
+		 width:  areaWidth
+		 height:  areaHeight
+ 		columns:  columns 
+	  	rows:  rows
+		morphBounds: morphBounds
+		matrix: contentMatrix
+		colors: colors.

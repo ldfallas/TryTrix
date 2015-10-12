@@ -13,7 +13,8 @@
 		"columns",
 		"state",
 		"tetriminoKinds",
-		"randomGenerator" ],
+		"randomGenerator",
+		"eventHandlers" ],
 	"name" : "GameState",
 	"pools" : [
 		 ],

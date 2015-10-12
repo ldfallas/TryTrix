@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"init" : "ldfallas 9/15/2015 20:16" },
+		"init" : "ldfallas 9/15/2015 20:16",
+		"init:" : "ldfallas 10/10/2015 10:23" },
 	"instance" : {
-		"drawOn:" : "ldfallas 9/15/2015 08:17",
-		"gameState:" : "ldfallas 9/15/2015 08:19",
+		"drawOn:" : "ldfallas 10/10/2015 10:51",
+		"gameState:" : "ldflalas 10/6/2015 21:57",
 		"handleKeystroke:" : "ldfallas 9/5/2015 10:15",
 		"handlesMouseOver:" : "ldfallas 9/1/2015 21:28",
 		"mouseEnter:" : "ldfallas 9/1/2015 21:29",
 		"mouseLeave:" : "ldfallas 9/1/2015 21:30",
+		"on:do:" : "ldflalas 10/6/2015 21:55",
+		"raise:" : "ldflalas 10/6/2015 21:53",
 		"step" : "ldfallas 9/5/2015 10:38",
 		"stepTime" : "ldfallas 9/5/2015 10:35" } }

@@ -10,7 +10,7 @@ init
 	currentTetrimino :=  Tetriminos create: (self getRandomTetriminoId) matrix:gameMatrix.
 	nextTetrimino :=  Tetriminos create: (self getRandomTetriminoId)  matrix:gameMatrix.
 	
-	
+	eventHandlers := Dictionary new.
 	
 	state := #inital.
 	(currentTetrimino placeOnMatrix) ifFalse: [self goToFinishedState].

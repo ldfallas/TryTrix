@@ -5,12 +5,10 @@
 	"classtraitcomposition" : "TTetriminoDrawing classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "ldfallas 9/15/2015 07:28",
+	"commentStamp" : "",
 	"instvars" : [
-		"gameState",
-		"colors",
-		"eventHandlers" ],
-	"name" : "TryTrixMorph",
+		"matrix" ],
+	"name" : "TetriminoPreview",
 	"pools" : [
 		 ],
 	"super" : "Morph",
